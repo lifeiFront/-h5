@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width; initial-scale=1.0">
+<title>演示：使用HTML5实现刮刮卡效果</title>
+<script src="zepto.js"></script>
+
+<style type="text/css">
+body,html{height:100%; width:100%; border:0; padding:0; margin:0;}
+/**宽度高度跟canvas保持一致，不然会导致圆心跟鼠标有点问题position:relative;width: 270px; height:129px;**/
+#scratchContainer { position:relative;width: 100%;}
+#drawPercent {color:#F60;}
+.test{ width:100%; }
+#test{ width:100%;}
+</style>
+</head>
+
+<body>
+<!--<div style="width:1000px; height:1200px;"></div>-->
+<button id="freshBtn">刷新</button><label>已刮开 <span id="drawPercent">0%</span> 区域。</label>
+<div id="scratchContainer">
+
+</div>
+
+<script type="text/javascript">
+
+</script>
+<script src="ggk.js"></script>
+</body>
+</html>
